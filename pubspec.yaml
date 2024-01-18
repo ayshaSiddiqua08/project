@@ -1,0 +1,79 @@
+name: Taayza
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  logger: ^1.3.0
+  flutter_screenutil: ^5.7.0
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.2.3
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.5.2
+  hive_flutter: ^1.1.0
+  animated_text_kit: ^4.2.2
+  google_fonts: ^4.0.4
+  firebase_auth: ^4.6.1
+  fluttertoast: ^8.2.1
+  otp_text_field: ^1.1.3
+  firebase_storage: ^11.2.1
+  image_picker: ^0.8.7+5
+  video_player: ^2.6.1
+  chewie: ^1.5.0
+  video_thumbnail: ^0.5.3
+  cached_video_preview: ^1.0.6
+  url_launcher: ^6.1.12
+  flutter_rating_bar: ^4.0.1
+  timer_count_down: ^2.2.2
+  intl: ^0.18.1
+  file_picker: ^5.3.3
+  photo_view: ^0.14.0
+  zego_uikit_prebuilt_call: ^3.15.3
+  zego_uikit_signaling_plugin: ^2.5.2
+  font_awesome_flutter: ^10.5.0
+  animated_icon: ^0.0.5
+  lottie: ^2.7.0
+  dotted_border: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - lib/views/screens/
+    - lib/views/screens/auth/
+    - lib/views/screens/auth/components/
+    - lib/views/screens/student/
+    - lib/views/screens/student/home/
+    - lib/views/screens/student/home/bottom_nav/
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/generated/
+  filename: assets.dart

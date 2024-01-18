@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403363679381",
+    "project_id": "taayza-35d71",
+    "storage_bucket": "taayza-35d71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403363679381:android:7313f5f91113f8138f9f9c",
+        "android_client_info": {
+          "package_name": "com.taayza.taayza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403363679381-1lnc0hdkfc1gg58872a5agoc1tn2nq9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX7qhj9kPh_J_8mqE6m1OmhIEnkOE5ulI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403363679381-1lnc0hdkfc1gg58872a5agoc1tn2nq9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
